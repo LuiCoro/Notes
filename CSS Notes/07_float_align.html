@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .clr {
+      /* This is used when your boxes are in one another  */
+      clear: both;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border: 2px solid #333;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      /* Text Align */
+      text-align: left;
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+    }
+
+    #box-2 {
+      float: left;
+      width: 68%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <section id="box-1" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati, veritatis perferendis doloremque
+        nemo dolor quasi corrupti voluptatem iure ex!</p>
+    </section>
+    EXAMPLE - Of FLOATS
+    <section id="box-2" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati, veritatis perferendis doloremque
+        nemo dolor quasi corrupti voluptatem iure ex!</p>
+    </section>
+    <section id="box-3" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati, veritatis perferendis doloremque
+        nemo dolor quasi corrupti voluptatem iure ex!</p>
+    </section>
+    <!-- IMPORTANT - MUST BE USED WITH FLOATS  -->
+    <section class="clr"></section>
+
+    <section id="box-4" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati, veritatis perferendis doloremque
+        nemo dolor quasi corrupti voluptatem iure ex!</p>
+    </section>
+  </section>
+
+</body>
+
+</html>

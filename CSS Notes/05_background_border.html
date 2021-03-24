@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background & Border</title>
+  <style>
+    #box-1 {
+      background-color: blanchedalmond;
+      /* EXAMPLE - Border 
+      border-width: 3px;
+      border-color: red;
+      border-style: solid; */
+      /* IMPORTANT - This is the perfered Method of typing Border  */
+      border: 3px solid red;
+      border-radius: 10px;
+    }
+
+    #box-2 {
+      background: #333;
+      color: #f4f4f4;
+      border-top: blue solid 6px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    #box-3 {
+      background-image: url('./img/1247375.jpg');
+      /* IMPORTANT - Use this for images that are too small and repeat
+      background-repeat: no-repeat;
+      IMPORTANT - Use this for centering the background
+      background-position: center center;
+      IMPORTANT - Use this to make a img cover its whole area
+      background-size: cover;
+      IMPORTANT - Code it this way for healthy and clean code  */
+      background: url('./img/1247375.jpg') no-repeat center center/cover;
+      color: #fff;
+      height: 300px;
+      width: 600px;
+    }
+
+    /* IMPORTANT - This is a fixed image that will always stay in the senetr of the desktop  */
+    #box-4 {
+      background: url('./img/leaf.png') no-repeat center center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="box-1">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+  </section>
+  <br>
+  <section id="box-2">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+  </section>
+  <section id="box-3">
+    <h3>Box Three</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+  </section>
+  <section id="box-4">
+    <h3>Box Four</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae exercitationem fugit sunt quidem, nam corrupti
+      eum quas. Doloremque, sequi odio.</p>
+  </section>
+</body>
+
+</html>
