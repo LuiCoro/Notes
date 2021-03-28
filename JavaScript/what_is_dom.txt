@@ -1,0 +1,22 @@
+What is The DOM ?
+
+  Stands For:
+Document Object Model
+
+Tree of nodes / elements created by the browser
+
+JavaScript can be used to read / write / manipulate to the DOM
+
+Object Oriented Representation Example:
+
+Document
+  |
+  Root Element - Element < head > - Element < title > - Text: "My title"
+    |
+              |
+              | - Element < body > - Element < h1 > - Text: "My Header"
+  |
+                                    |
+                                    | - Element < a > - Text: "My Link"
+  |
+                                    | - Attribute "href"
