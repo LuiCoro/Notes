@@ -82,7 +82,7 @@ console.log(Object.keys(cup))
 console.log(Object.values(cup))
 console.log(Object.entries(cup))
 
-console.log(this) DONT DO THIS
+console.log(this) //DONT DO THIS
 
 Array.prototype = {
   pop: function () { }, // - last index
