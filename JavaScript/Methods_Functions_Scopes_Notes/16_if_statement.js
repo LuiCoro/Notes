@@ -1,9 +1,9 @@
 // Guide Line to If / Else Statments
-if (something) {
-  do something
-} else {
-  do something else
-}
+// if (something) {
+//   do something
+// } else {
+//   do something else
+// }
 
 const id = 100;
 
